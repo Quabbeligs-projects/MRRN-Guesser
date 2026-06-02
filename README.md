@@ -20,7 +20,7 @@
 - Leaderboard (+confetti & sfx when you finish the game)
 - **20 photos / 5 photos per round**
 
-### Algo?:
+### Algo:
   300 meters off = 2000 point
   -> then 1 meter = 10 points
 (Anything over 300 meters = no points L bozo)
