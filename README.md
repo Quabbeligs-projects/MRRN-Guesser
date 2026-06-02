@@ -1,5 +1,17 @@
 # MRRN-Guesser
 
+## Who does what:
+### Nikki:
+- UI
+### Nih:
+- Databases
+### Big D:
+- Something
+### Tomasch:
+- Something
+### Small B:
+- Jack off
+
 ## STRUCTURE
 - still images
 - 15 sec timer
@@ -24,4 +36,6 @@
   300 meters off = 2000 point
   -> then 1 meter = 10 points
 (Anything over 300 meters = no points L bozo)
+
+
 
