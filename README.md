@@ -25,9 +25,9 @@
 - **20 photos / 5 photos per round**
 
 ### Algo: (d = distance)
-d < 10: 5000 points
-d > 1000: 0 points
-10 < d < 1000: (1-(d-10)/990)*5000
+- d < 10: 5000 points
+- d > 1000: 0 points
+- 10 < d < 1000: (1-(d-10)/990)*5000
 
 
 
