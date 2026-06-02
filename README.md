@@ -9,6 +9,7 @@
 - (Anything over 300 meters = no points L bozo)
 - Share score at the end of the round button, people enter usernames (MAKE SURE TO HAVE FILTERS), if guy pressed on share they get teleported to leaderboard to see other scores
 
+## Useful Shit:
 ## Roles:
 ### Nikki:
 ### Tomasch:
