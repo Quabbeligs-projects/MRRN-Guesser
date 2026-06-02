@@ -1,6 +1,6 @@
 # MRRN-Guesser
 
-## Who does what:
+## WHO DOES WHAT
 ### Nikki:
 - UI
 ### Nih:
