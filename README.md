@@ -1,10 +1,10 @@
 # MRRN-Guesser
 
-# STRUCTURE
+## STRUCTURE
 - still images
 - 15 sec timer
 
-# FEATURES & DESIGN
+## FEATURES & DESIGN
 Sound Effects:
 - among us role reveal sound - when new map
 - vine boom - when you click on map
