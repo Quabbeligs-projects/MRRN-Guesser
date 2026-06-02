@@ -10,6 +10,7 @@
 - Share score at the end of the round button, people enter usernames (MAKE SURE TO HAVE FILTERS), if guy pressed on share they get teleported to leaderboard to see other scores
 
 ## Useful Shit:
+- https://latb.io/geoguessr/articles/the-maths
 ## Roles:
 ### Nikki:
 ### Tomasch:
