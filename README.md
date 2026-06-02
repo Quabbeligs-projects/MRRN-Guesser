@@ -8,13 +8,14 @@
 ### Big D:
 - Something
 ### Tomasch:
-- Something
+- implementing scoring algorithm (need to have coordinates of point and guess and ill do the rest based off that)
+- ...
 ### Small B:
 - Jack off
 
 ## STRUCTURE
 - still images
-- 15 sec timer
+- 20 sec timer
 
 ## FEATURES & DESIGN
 ### Sound Effects: (deleted because i put them in the Audios folder (audios.txt) 
