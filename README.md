@@ -1,3 +1,5 @@
+### HOW TO RUN: "python3 server.py" in terminal (I ain't hosting ts)
+
 # MRRN-Guesser
 
 ## Contributors
