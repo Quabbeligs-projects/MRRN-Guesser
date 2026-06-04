@@ -31,6 +31,7 @@
 - d < 10: 5000 points
 - d > 1000: 0 points
 - 10 < d < 1000: (1-(d-10)/990)*5000
+- distance formula: d = sqrt((x_guess - x_true)^2 + (y_guess - y_true)^2) 
 
 
 
