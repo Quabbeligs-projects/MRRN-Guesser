@@ -1,20 +1,14 @@
 # MRRN-Guesser
 
-## WHO DOES WHAT
+## Contributors
 ### Nikki:
-- Frontend (UI)
+- Frontend
 - Backend 
-### Nih:
-- Databases
-### Big D:
-- Something
 ### Tomasch:
 - sound design
 - scoring algorithm
 - map
 - images
-### Small B:
-- Jack off
 
 ## STRUCTURE
 - still images
