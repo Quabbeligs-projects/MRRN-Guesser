@@ -2,7 +2,8 @@
 
 ## WHO DOES WHAT
 ### Nikki:
-- UI
+- Frontend (UI)
+- Backend 
 ### Nih:
 - Databases
 ### Big D:
