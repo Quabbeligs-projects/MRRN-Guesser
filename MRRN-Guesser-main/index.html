@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MRRN Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <button id="leaderboardLink" class="leaderboard-link" type="button">leaderboard</button>
+
+    <main id="app" class="app">
+      <section id="startScreen" class="start-screen">
+        <div class="start-frame">
+          <button id="startButton" class="start-button" type="button">Start Game</button>
+        </div>
+      </section>
+
+      <section id="gameScreen" class="game-screen hidden" aria-live="polite">
+        <div class="top-bar">
+          <span id="roundText">1/5</span>
+          <span id="timerText">20</span>
+          <span id="scoreText">0</span>
+        </div>
+
+        <div id="photoStage" class="photo-stage">
+          <img id="locationImage" class="location-image" alt="Current location">
+        </div>
+
+        <button id="mapPanel" class="map-panel" type="button" aria-label="Open map and make a guess">
+          <img id="miniMapImage" src="Assets/map.jpg" alt="">
+          <span id="miniGuessMarker" class="map-pin mini-guess hidden"></span>
+        </button>
+      </section>
+
+      <section id="finalScreen" class="final-screen hidden">
+        <div class="final-panel">
+          <h1>Final Score</h1>
+          <p id="finalScore">0</p>
+          <button id="shareButton" class="primary-button" type="button">Share your score!</button>
+        </div>
+      </section>
+    </main>
+
+    <div id="mapOverlay" class="map-overlay hidden" role="dialog" aria-modal="true" aria-label="Guess map">
+      <div class="expanded-map-wrap">
+        <div id="expandedMap" class="expanded-map">
+          <img src="Assets/map.jpg" alt="Map">
+          <img id="guessMarker" class="marker-image hidden" src="Assets/marker.png" alt="Your guess">
+          <img id="actualFlag" class="flag-image hidden" src="Assets/flag.png" alt="Actual location">
+        </div>
+        <div id="roundResult" class="round-result hidden">
+          <span id="distanceText">Distance: 0 px</span>
+          <span id="roundScoreText">Score: 0</span>
+        </div>
+        <button id="nextButton" class="primary-button hidden" type="button">Next</button>
+      </div>
+    </div>
+
+    <div id="shareDialog" class="dialog hidden" role="dialog" aria-modal="true" aria-label="Share score">
+      <form id="shareForm" class="dialog-card">
+        <h2>Share Score</h2>
+        <input id="usernameInput" type="text" maxlength="18" autocomplete="off" placeholder="Username" required>
+        <p id="usernameError" class="form-error" role="alert"></p>
+        <button class="primary-button" type="submit">Upload</button>
+      </form>
+    </div>
+
+    <div id="leaderboardDialog" class="dialog hidden" role="dialog" aria-modal="true" aria-label="Leaderboard">
+      <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+      <div class="dialog-card leaderboard-card">
+        <div class="dialog-header">
+          <h2>Leaderboard</h2>
+          <button id="closeLeaderboard" class="close-button" type="button" aria-label="Close leaderboard">x</button>
+        </div>
+        <ol id="leaderboardList" class="leaderboard-list"></ol>
+      </div>
+    </div>
+
+    <audio id="audioAmongUs" src="Assets/Audios/among-us.mp3" preload="auto"></audio>
+    <audio id="audioCountdown" src="Assets/Audios/csgocountdown.mp3" preload="auto"></audio>
+    <audio id="audioBomb" src="Assets/Audios/bombexplode.mp3" preload="auto"></audio>
+    <audio id="audioFah" src="Assets/Audios/fah.mp3" preload="auto"></audio>
+    <audio id="audioDing" src="Assets/Audios/ding.mp3" preload="auto"></audio>
+    <audio id="audioPvz" src="Assets/Audios/pvz.mp3" preload="auto"></audio>
+    <audio id="audioVineBoom" src="Assets/Audios/vine-boom.mp3" preload="auto"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>

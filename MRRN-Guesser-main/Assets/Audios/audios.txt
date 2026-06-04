@@ -1,0 +1,6 @@
+among us role reveal sound: when new image given
+csgo countdown: plays at the start of each round
+bomb explode: if you don't answer in time / < 1000 points
+faahhhhhhh: 1000 - 2500 points
+ding sound effect: 2500 - 4500 points
+plants vs zombies: 4500+ points
