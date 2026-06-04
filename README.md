@@ -11,7 +11,8 @@
 ### Tomasch:
 - sound design
 - scoring algorithm
-- map & images
+- map
+- images
 ### Small B:
 - Jack off
 
@@ -20,8 +21,6 @@
 - 20 sec timer
 
 ## FEATURES & DESIGN
-### Sound Effects: (deleted because i put them in the Audios folder (audios.txt) 
-
 ### Features:
 - Share score at the end of the round button, people enter usernames (MAKE SURE TO HAVE FILTERS), if guy pressed on share they get teleported to leaderboard to see other scores
 - Leaderboard (+confetti & sfx when you finish the game)
