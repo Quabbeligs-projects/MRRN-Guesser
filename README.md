@@ -8,8 +8,9 @@
 ### Big D:
 - Something
 ### Tomasch:
-- implementing scoring algorithm (need to have coordinates of point and guess and ill do the rest based off that)
-- ...
+- sound design
+- scoring algorithm
+- map & images
 ### Small B:
 - Jack off
 
